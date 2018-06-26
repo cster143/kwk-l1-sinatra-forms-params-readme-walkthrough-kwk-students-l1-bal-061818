@@ -6,6 +6,7 @@ class App < Sinatra::Base
     erb :food_form
   end
 
-  # Add your post route and action below
+  <p>Your Favorite Food: <input type="text"></p>
+    <input type="submit">
 
 end
